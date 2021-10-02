@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/Iconos/icono.png" type="image/x-icon">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <title>DomiCenter</title>
+  </head>
+  <body>
+
+       <!-- 
+         =====================================================-->
+      <!------------------- Nav Bar inicio --------------------->
+      <!-- ===================================================-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-4" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Iconos/DomiCenterLetrasMin.png" class="TamañoIMG"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mapa</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías</a> 
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="restaurantes.html">Restaurantes</a></li>
+                  <li><a class="dropdown-item" href="pharmacy.html">Droguerias</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="category.html">SuperMercados</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Escribe" aria-label="Search">
+              <button class="btn btn-warning btn-primary-btn-outline-success" type="button">Pide</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+       <!-- 
+         =====================================================-->
+      <!------------------- Nav Bar Fin ------------------------>
+      <!-- ===================================================-->
+
+
+       <!-- 
+         =====================================================-->
+      <!------------------- Slide Inicio ----------------------->
+      <!-- ===================================================-->
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/Salchipapa 2.jpg" class="d-block w-100" alt="slide1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/Picada 1.jpg" class="d-block w-100" alt="slide2">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/Salchipapa 2.png" class="d-block w-100" alt="slide3">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- 
+         =====================================================-->
+      <!------------------- Slide Fin -------------------------->
+      <!-- ===================================================-->
+
+      <!-- 
+         =====================================================-->
+      <!------------------- Intro Inicio ----------------------->
+      <!-- ===================================================-->
+        <section class="w-50 mx-auto text-center pt-5" id="intro">
+          <h1 class="p-3 fs-2 border-top border-3"> Puedes realizar pedidos a tu domicilio al alcance de un 
+            <span class="text-primary"> <a type="btn" href="#">
+              click
+            </a>
+            </span>
+          </h1>
+          <p class="p-3 fs-4">Pide ahora desde <span class="text-primary">DomiCenter</span> y disfruta de nuestro servicio, de tu servicio.</p>
+        </section>
+         <!-- 
+         =====================================================-->
+      <!------------------- Intro Fin -------------------------->
+      <!-- ===================================================-->
+      <!-- 
+         =====================================================-->
+      <!------------------- Servicio Inicio -------------------->
+      <!-- ===================================================-->
+
+        <section class="container-fluid">
+          <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+              <img src="img/Wi Fi.png" alt="Carrito" width="180" height="160">
+              <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1"> CONECTATE </h3>
+                  <p class="px-4">
+                    Es facil, solo debes tener conexion y una cuenta para comenzar a pedír!
+                  </p>
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+              <img src="img/Carrito.png" alt="Carrito" width="180" height="160">
+              <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1"> COMPRA </h3>
+                  <p class="px-4">
+                    Agrega tus productos al carrito, paga y espera tu pedido.
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="row w-75 mx-auto servicio-fila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+              <img src="img/Reloj.png" alt="Carrito" width="180" height="160">
+              <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1"> ESPERA </h3>
+                  <p class="px-4">
+                    El pedido tarda dependiendo de la ubicacion en que estes, demora entre 15 a 30 minutos.
+                  </p>
+                
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+              <img src="img/Smile.png" alt="Carrito" width="180" height="160">
+              <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1"> RECIBE </h3>
+                  <p class="px-4">
+                    Disfruta de tu domicilio realizado por DomiCenter y recomiendalo a amigos :D.
+                  </p>
+                
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 
+         =====================================================-->
+      <!------------------- Servicio Fin ----------------------->
+      <!-- ===================================================-->
+
+
+        <!-- 
+         =====================================================-->
+      <!------------------- Acerca de nosotros ----------------->
+      <!-- ===================================================-->
+          <section>
+            <div class="w-75 m-auto text-center" id="equipo"> <h1 class="mb-5 fs-2">DomiCenter, economia domiciliaria<span class="text-primary">Quibdó</span></h1>
+            <p>DomiCenter es una iniciativa de emprendimiento a modo de 
+              apuesta a la prestacion de servicios domiciliarios en medio de la emergencia sanitaria
+              Covid-19, la cual se apira, sirva fomentar la economía naranja en la ciudad de <span class="text-primary">Quibdó</span>
+            </p>
+          </div>
+          <div class="mt-5 text-center py-5">
+            <img class="img-fluid" src="img/quibdo.jpeg" alt="" >
+          </div>
+          <div id="local" class="border-top border-2">
+            <div class="mapa"></div>
+            <div>
+              <div class="wrapper">
+                <h2> Ubicado en Quibdó, Chocó</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Nuestra oficina pricipal se encuentra en la ciudad de Quibdó, en el centro. Nosotros relacionamos directamente con los vendedores, restaurantes y negociantes de donde provendra su domicilio. </p>
+                <section class="d-flex" id="numeros-local fs-5"> 
+                  <div>
+                    <p class="text-primary fs-5">226</p>
+                    <p>Dias de sol</p>
+                  </div>
+                  <div>
+                    <p class="text-primay fs-5">100%</p>
+                    <p>Aprobado</p>
+                  </div>
+                  <div>
+                    <p class="text-primay fs-5">31 °C</p>
+                    <p>Temperatura</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+          </section>
+        <!-- 
+         =====================================================-->
+      <!------------------- Formulario Inicio ------------------>
+      <!-- ===================================================-->
+
+      <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+        <div id="bg-contacto">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.5" d="M0,256L12.6,266.7C25.3,277,51,299,76,277.3C101.1,256,126,192,152,160C176.8,128,202,128,227,133.3C252.6,139,278,149,303,144C328.4,139,354,117,379,112C404.2,107,429,117,455,149.3C480,181,505,235,531,245.3C555.8,256,581,224,606,229.3C631.6,235,657,277,682,250.7C707.4,224,733,128,758,80C783.2,32,808,32,834,64C858.9,96,884,160,909,165.3C934.7,171,960,117,985,112C1010.5,107,1036,149,1061,138.7C1086.3,128,1112,64,1137,42.7C1162.1,21,1187,43,1213,42.7C1237.9,43,1263,21,1288,26.7C1313.7,32,1339,64,1364,90.7C1389.5,117,1415,139,1427,149.3L1440,160L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"></path></svg>
+        </div>
+        <!-- Formulario-->
+        <div class="container tamaño-div" id="contenedor-formulario"> 
+          <div id="titulo-formulario" class="text-center mb-4"> 
+            
+            <div>
+              <img src="Iconos/Asesor.jpg " alt="Contacto" class="img-fluid" width="180" height="160">
+              <h2>Contactos</h2>
+              <p class="fs-5">
+                Ven y pide con nosotros
+              </p>
+        </div>
+        <form action="">
+          <div class="mb-3">
+            <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com" required>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nombre" placeholder="Andres Rivas" required>
+          </div>
+          <div class="mb-3">
+            <input type="tel" class="form-control" id="tel" placeholder="+57-321-321-3210" required>
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+          <div class="mb-3">
+            <button type="button"   class="btn btn-primary w-100 fs-5">Enviar mensaje</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+      </section>
+        <!-- 
+         =====================================================-->
+      <!------------------- Formulario Fin --------------------->
+      <!-- ===================================================-->
+      
+          <!-- 
+         =====================================================-->
+      <!------------------- Footer Inicio -|--------------------->
+      <!-- ===================================================-->
+
+      <footer class="w-100">
+        <p class="text-center">
+          DomiCenter. &copy; Todos los derechos reservados 2021
+        </p>
+      </footer>
+  
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
